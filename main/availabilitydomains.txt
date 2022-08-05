@@ -1,0 +1,29 @@
+ /root/lib/oracle-cli/bin/oci iam availability-domain list --compartment-id ocid1.compartment.oc1..aaaaaaaauqerfjhu32mkfx5wbacdq7xc5lrza5cx2hs2bj3t5w66tuhxzoqa
+WARNING: Permissions on /root/.oci/config are too open.
+To fix this please try executing the following command:
+oci setup repair-file-permissions --file /root/.oci/config
+Alternatively to hide this warning, you may set the environment variable, OCI_CLI_SUPPRESS_FILE_PERMISSIONS_WARNING:
+export OCI_CLI_SUPPRESS_FILE_PERMISSIONS_WARNING=True
+
+/root/lib/oracle-cli/lib/python3.8/site-packages/oci/_vendor/urllib3/connectionpool.py:1048: InsecureRequestWarning: Unverified HTTPS request is being made to host 'identity.us-ashburn-1.oci.oraclecloud.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/1.26.x/advanced-usage.html#ssl-warnings
+  warnings.warn(
+{
+  "data": [
+    {
+      "compartment-id": "ocid1.compartment.oc1..aaaaaaaauqerfjhu32mkfx5wbacdq7xc5lrza5cx2hs2bj3t5w66tuhxzoqa",
+      "id": "ocid1.availabilitydomain.oc1..aaaaaaaatrwxaogr7dl4yschqtrmqrdv6uzis3mgbnomiagqrfhcb7mxsfdq",
+      "name": "MeMu:US-ASHBURN-AD-1"
+    },
+    {
+      "compartment-id": "ocid1.compartment.oc1..aaaaaaaauqerfjhu32mkfx5wbacdq7xc5lrza5cx2hs2bj3t5w66tuhxzoqa",
+      "id": "ocid1.availabilitydomain.oc1..aaaaaaaaztunlny6ae4yw2vghp5go2zceaonwp6wiioe3tnh2vlaxjjl2n3a",
+      "name": "MeMu:US-ASHBURN-AD-2"
+    },
+    {
+      "compartment-id": "ocid1.compartment.oc1..aaaaaaaauqerfjhu32mkfx5wbacdq7xc5lrza5cx2hs2bj3t5w66tuhxzoqa",
+      "id": "ocid1.availabilitydomain.oc1..aaaaaaaauvt2n7pijol7uqgdnnsoojcukrijtmcltvfwxazmitk235wyohta",
+      "name": "MeMu:US-ASHBURN-AD-3"
+    }
+  ]
+}
+
